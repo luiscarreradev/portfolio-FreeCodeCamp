@@ -3,4 +3,4 @@
 ### Build a Porfolio
 Follow me [Luis Carrera](https://linktr.ee/luiscarreramv)
 
-![Landing Page](./porfolio.jpg)
+![Portfolio](portfolio.jpg)
