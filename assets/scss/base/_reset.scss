@@ -1,0 +1,45 @@
+/*=============== BASE ===============*/
+*,::before,::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: var(--html-font-size);
+}
+
+body{
+    background-color: var(--background-color);
+    min-width: 320px;
+    font-family: var(--family-font);
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+
+h1,h2,h3{
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+i {
+    color: var(--icon-color);
+}
+
+figcaption {
+    background-color: var(--background-color);
+}

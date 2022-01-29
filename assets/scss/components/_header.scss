@@ -1,0 +1,48 @@
+.nav {
+    height: 50px;
+    min-width: 320px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+
+    &__bar {
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    &__link {
+        font-size: var(--link);
+        padding: 1.6rem;
+
+        &:hover {
+            background-color: rgb(173, 9, 9);
+        }
+    }
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+    &__title {
+        font-size: var(--h1-font-size);
+        font-weight: var(--font-weight-normal);
+    }
+
+    &__text {
+        font-size: 2.4rem;
+        color: var(--secondary-color);
+        font-style: italic;
+        font-weight: 300;
+    }
+}
+
